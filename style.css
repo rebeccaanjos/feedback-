@@ -90,23 +90,26 @@ body {
     background-color: var(--light-grey);
 }
 
-.card > button {
-     width: 100%;
-     padding: 13px;
-     background-color: var(--orange);
-     border: none;
-     border-radius: 22px;
+.card > a {
+    display: block;
+    width: 100%;
+    padding: 13px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 22px;
 
-     font-size: 15px;
-     font-weight: 700;
-     text-transform: uppercase;
-     letter-spacing: 2px;
-     color: var(--white);
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
 
-     transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
 }
 
-.card > button:hover {
+.card > a:hover {
     color: var(--orange);
     background-color: var(--white);
     cursor: pointer;
